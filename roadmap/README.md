@@ -6,7 +6,7 @@
 - [Download Grasshopper file: comparing building blocks](comparing-building-blocks_hs26.gh)
 - [Video (30')](https://youtu.be/BCFiGmG68sA)
 
-This roadmap provides guidence during the learning process,
+This roadmap provides guidance during the learning process,
 to understand how much you've progressed and what are the skills and concepts
 that you should master in order to move forward.
 

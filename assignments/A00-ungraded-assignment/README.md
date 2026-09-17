@@ -20,4 +20,4 @@ Example: addition: `"The result of [num_01] + [num_02] is: [result]"`
 
 ### Challenge 02
 
-Increase the readability of the code. Use a set of functions for each operation and one funtion for the main calculator
+Increase the readability of the code. Use a set of functions for each operation and one function for the main calculator

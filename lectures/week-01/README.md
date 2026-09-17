@@ -82,7 +82,7 @@ Assignments are strategically spaced throughout the semester, starting with simp
 
 ### Room
 
-The course “Coding Architecture I” will take place on Thurdays from 15:45-18:30 in room **HCI J7**.
+The course “Coding Architecture I” will take place on Thursdays from 15:45-18:30 in room **HCI J7**.
 
 > Please note:  We will try to provide as many powerplugs as we can, but we may not be able to cover the entire room! We kindly request that you bring your laptops fully charged to each session.
 
@@ -90,8 +90,8 @@ The course “Coding Architecture I” will take place on Thurdays from 15:45-18
 
 Moodle will serve as our primary teaching platform. From there, you will access all course materials, relevant administrative information, download and submission links, and quizzes. Additionally, Moodle hosts the course forum, where you can ask questions and engage in discussions with your peers and instructors.
 
-Follow this [LINK](https://moodle-app2.let.ethz.ch/course/view.php?id=25749)
-to access to the Moodle course plattform.
+Follow this [LINK](https://moodle-app2.let.ethz.ch/course/view.php?id=29078)
+to access to the Moodle course platform.
 
 ![Moodle Platform](./images/moodle-screenshot.png)
 
@@ -107,7 +107,7 @@ LINK: [Moodle: Tutor Selection](https://moodle-app2.let.ethz.ch/mod/choicegroup/
 
 “Coding Architecture” is a dynamic and interactive course with a strong practical hands-on approach. Hence, it is strongly recommended that you attend and actively participate in the in-person course sessions. Furthermore the course sessions incorporate step by step tutorials that are solved together in class. Understanding each step explained in these tutorial sessions is essential for successfully completing the assignments on your own. During the session you will have the possibility to ask questions and engage with tutors which will maximize your learning process throughout the course.
 
-See [here](https://moodle-app2.let.ethz.ch/course/view.php?id=29078) for details about the grading process and your requirements.
+See [here](https://moodle-app2.let.ethz.ch/course/section.php?id=262882) for details about the grading process and your requirements.
 
 ### Assignments
 
@@ -187,7 +187,7 @@ string_example_2 = "Hello World"
 boolean_example = True
 ```
 
-#### Expresions and Statements
+#### Expressions and Statements
 
 Think of expressions and statements as the walls that structure your code. They allow you to perform operations and store the results, giving your code a defined structure and purpose.
 
@@ -201,7 +201,7 @@ Think of expressions and statements as the walls that structure your code. They 
 # A value alone is itself a valid expression.
 3.14
 
-# This expression multiples two values with the * operator.
+# This expression multiplies two values with the * operator.
 42 * 10              # but we are not using the result!
 
 # Expressions work similarly to math, e.g. parentheses to group parts

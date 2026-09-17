@@ -94,4 +94,4 @@ ISBN : 9788895315300
 
 ## License
 
-Unless explicitely mentioned, all content in this repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Unless explicitly mentioned, all content in this repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
