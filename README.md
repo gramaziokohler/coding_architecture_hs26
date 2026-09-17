@@ -17,11 +17,11 @@ See [here](/getting-started/README.md) for details about software requirements a
 
 ## Course information
 
-The central platform for all course content is [Moodle](https://moodle-app2.let.ethz.ch/course/view.php?id=25749).
+The central platform for all course content is [Moodle](https://moodle-app2.let.ethz.ch/course/section.php?id=262882).
 
 ## Lectures
 
-* Week 01 | Ungraded assignment
+* [Week 01](/lectures/week-01/README.md) | [Ungraded assignment](/assignments/A00-ungraded-assignment/README.md)
 * Week 02 | No assignment
 * Week 03 | Assignment 01
 * Week 04 | No assignment
@@ -69,7 +69,7 @@ We have compiled a list of essential links and resources to support your learnin
 
 ### COMPAS
 
-- [COMPAS API Reference](https://compas.dev/compas/2.14.1/api/index.html)
+- [COMPAS API Reference](https://compas.dev/compas/2.15.1/api/index.html)
 
 
 ### Books
