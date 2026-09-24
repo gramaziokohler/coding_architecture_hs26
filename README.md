@@ -22,7 +22,7 @@ The central platform for all course content is [Moodle](https://moodle-app2.let.
 ## Lectures
 
 * [Week 01](/lectures/week-01/README.md) | [Ungraded assignment](/assignments/A00-ungraded-assignment/README.md)
-* Week 02 | No assignment
+* [Week 02](/lectures/week-02/README.md) | No assignment
 * Week 03 | Assignment 01
 * Week 04 | No assignment
 * Week 05 | Assignment 02
