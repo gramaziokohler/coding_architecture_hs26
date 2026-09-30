@@ -1,0 +1,32 @@
+name: Setup VS Code Scripts
+
+on:
+  push:
+    paths:
+      - .github/workflows/setup-vscode-scripts.yml
+      - using-vscode/**
+  pull_request:
+    paths:
+      - .github/workflows/setup-vscode-scripts.yml
+      - using-vscode/**
+  workflow_dispatch:
+
+jobs:
+  run-setup-vscode-sh:
+    name: Run setup-vscode.sh on Ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Execute setup-vscode.sh
+        run: bash using-vscode/setup-vscode.sh
+
+  run-setup-vscode-ps1:
+    name: Run setup-vscode.ps1 on Windows
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Execute setup-vscode.ps1
+        shell: pwsh
+        run: ./using-vscode/setup-vscode.ps1

@@ -1,0 +1,68 @@
+---
+---
+@import "{{ site.theme }}";
+
+// Optimierungen für die Moodle-Einbettung
+.container {
+  max-width: 1000px; // Etwas breiter als Standard für Code-Beispiele
+  margin: 0 auto;
+  padding: 20px;
+}
+
+// Bilder: Sollen nie das Layout sprengen und zentriert sein
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+// Den kompletten linken Header ausblenden
+header {
+  display: none !important;
+}
+
+// Den Hauptbereich (section) auf volle Breite bringen
+section {
+  width: 100% !important;
+  max-width: 100% !important;
+  float: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+// Den Container der alles umschließt (wrapper) für volle Breite öffnen
+.wrapper {
+  width: 100% !important;
+  max-width: 1200px !important; // Höhere max-width für breitere Screens
+  margin: 0 auto !important;
+  padding: 10px !important; // Weniger Padding an den Seiten
+}
+
+// Den Footer ebenfalls ausblenden oder anpassen
+footer {
+  display: none !important;
+}
+
+// comment
+// Code-Blöcke und Tabellen scrollbar machen
+pre, table {
+  overflow-x: auto;
+  display: block;
+}
+
+// Inline Code soll wirklich inline bleiben
+code {
+  display: inline !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 2px 4px !important;
+}
+
+// Schriftgröße leicht an Moodle anpassen
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}

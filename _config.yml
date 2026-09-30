@@ -1,0 +1,7 @@
+title: Coding Architecture I HS26
+description: Coding Architecture I HS26 Course Material
+theme: jekyll-theme-minimal
+baseurl: "/coding_architecture_hs26"
+url: "https://gramaziokohler.github.io"
+include: ["_static"]
+show_downloads: false

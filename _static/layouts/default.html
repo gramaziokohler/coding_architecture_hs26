@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        {{ content }}
+      </section>
+    </div>
+
+    <script>
+      (() => {
+        function postHeight() {
+          const wrapper = document.querySelector('.wrapper');
+          if (!wrapper) return;
+          
+          // Wir messen nur den Inhalt des Wrappers ohne Padding/Margin Einflüsse
+          const height = wrapper.getBoundingClientRect().height;
+          parent.postMessage({ type: "caii:set-iframe-height", height: height }, "*");
+        }
+
+        window.addEventListener("load", postHeight);
+        window.addEventListener("resize", postHeight);
+        
+        // ResizeObserver nur auf den Wrapper anstatt auf das ganze Document
+        if ("ResizeObserver" in window) {
+          const wrapper = document.querySelector('.wrapper');
+          if (wrapper) {
+            new ResizeObserver(postHeight).observe(wrapper);
+          }
+        }
+        
+        // Selteneres Intervall reduziert die Wahrscheinlichkeit von Loops
+        setInterval(postHeight, 2000);
+      })();
+    </script>
+  </body>
+</html>

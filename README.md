@@ -1,4 +1,4 @@
-![Poster](/_static/cai-banner_hs26.jpg)
+![Poster](_static/cai-banner_hs26.jpg)
 
 # Coding Architecture I: HS26
 
@@ -13,7 +13,7 @@ Materials for the "Coding Architecture I", Autumn Semester 2026.
 
 ## Getting started
 
-See [here](/getting-started/README.md) for details about software requirements and installation of the tools.
+See [here](getting-started/README.md) for details about software requirements and installation of the tools.
 
 ## Course information
 
@@ -23,7 +23,7 @@ The central platform for all course content is [Moodle](https://moodle-app2.let.
 
 * [Week 01](/lectures/week-01/README.md) | [Ungraded assignment](/assignments/A00-ungraded-assignment/README.md)
 * [Week 02](/lectures/week-02/README.md) | No assignment
-* Week 03 | Assignment 01
+* [Week 03](/lectures/week-03/README.md) | [Assignment 01](/assignments/A01-brick-wall/README.md)
 * Week 04 | No assignment
 * Week 05 | Assignment 02
 * Week 06:  Seminar week
