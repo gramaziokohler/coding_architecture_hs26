@@ -350,7 +350,7 @@ The following are very simple optional micro exercises that you can go through t
 
 4. In a "Python 3 Script" component, write a program that assigns a float value to the variable `x`, then use conditional statements to check if it's greater than 5, if it is, print the string `"Is a large value"`.
 
-<details>
+<details markdown="1">
   <summary><b>Solutions</b></summary>
 
 1. 

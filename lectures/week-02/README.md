@@ -487,7 +487,7 @@ The following are very simple micro exercises that you can go through to practic
 
 11. In a "Python 3 Script" component with one input parameter `x` with **item access** connected with a number slider of decimal values, write a program that rounds the value up to 2 decimal places. Print the output.
 
-<details>
+<details markdown="1">
   <summary><b>Solutions</b></summary>
 
 

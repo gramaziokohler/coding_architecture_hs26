@@ -487,7 +487,7 @@ The following are very simple micro exercises that you can go through to practic
 
 7. In a "Python 3 Script" component with two inputs `nx` and `ny`, repeat the previous exercise, but use the `product` function of the `itertools` module instead of using nested `for` loops.
 
-<details>
+<details markdown="1">
   <summary><b>Solutions</b></summary>
 
 1.
