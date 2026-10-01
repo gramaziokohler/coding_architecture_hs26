@@ -2,7 +2,7 @@
 
 ## Week 03 - Recap
 
-![Course Banner](/_static/cai-banner_hs26.jpg)
+![Course Banner](../../_static/cai-banner_hs26.jpg)
 
 ## Table of Contents
 
@@ -416,7 +416,7 @@ An API (Application Programming Interface) reference is a detailed guide that de
 
 In the case of the COMPAS framework, the API reference is organized into various modules (or chapters), each representing different functionalities provided by the framework. Here's a breakdown of how to navigate and use the API reference effectively
 
-![api-guide](/lectures/week-03/images/api-guide.png)
+![api-guide](images/api-guide.png)
 
 The left panel of the API reference typically lists the available modules, which represent different parts of the library. For COMPAS, some of the key modules include among others:
 
@@ -453,13 +453,13 @@ rhino_point = point_to_rhino(p1)
 
 ## Assignment 1
 
-![Result](/assignments/A01-brick-wall/images/a01-challenge1-hs26.png)
+![Result](../../assignments/A01-brick-wall/images/a01-challenge1-hs26.png)
 
 ### Brick Wall
 
 The assignment of this week could be considered the hello world of parametric design! We will create a parametric brick wall using Python and the COMPAS framework.
 
-Click the link [here](/assignments/A01-brick-wall/README.md) to learn the details of assignment 1.
+Click the link [here](../../assignments/A01-brick-wall/README.md) to learn the details of assignment 1.
 
 ## Code Examples
 

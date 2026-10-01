@@ -2,7 +2,7 @@
 
 ## Week 02 - Lists, Sets and Relatives
 
-![Course Banner](/_static/cai-banner_hs26.jpg)
+![Course Banner](../../_static/cai-banner_hs26.jpg)
 
 ## Table of Contents
 
@@ -48,9 +48,9 @@ To synchronize the content of this week's lecture to your computer, use VS Code 
 
 ## Roadmap: How to become a computational Designer
 
-See [here](/roadmap/README.md) for more information about the **Roadmap: becoming a computational designer**, including an explainer video.
+See [here](../../roadmap/README.md) for more information about the **Roadmap: becoming a computational designer**, including an explainer video.
 
-[![Roadmap](/_static/roadmap-small.png)](/roadmap/roadmap.png)
+[![Roadmap](../../_static/roadmap-small.png)](../../roadmap/roadmap.png)
 
 ## Data + Algorithms = Programs
 

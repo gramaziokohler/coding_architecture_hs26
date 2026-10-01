@@ -2,7 +2,7 @@
  
 ## Week 01 - Python Basics
 
-![Course Banner](/_static/cai-banner_hs26.jpg)
+![Course Banner](../../_static/cai-banner_hs26.jpg)
 
 ## Table of Contents
 
@@ -115,7 +115,7 @@ The course includes three graded assignments followed by a final project that pr
 
 ### Software Requirements and Installation
 
-See [here](/getting-started/README.md) for details about software requirements and installation of the tools.
+See [here](../../getting-started/README.md) for details about software requirements and installation of the tools.
 
 
 ## Intro to Programming
@@ -124,9 +124,9 @@ See [here](/getting-started/README.md) for details about software requirements a
 
 The "becoming a computational designer" roadmap is a comprehensive guide that outlines the necessary steps to becoming proficient in computational design. It covers foundational concepts such as data and algorithms, as well as more advanced topics. The roadmap also provides visual references, with equivalent concepts in Grasshopper highlighted in green and programming concepts highlighted in blue below:
 
-See [here](/roadmap/README.md) for more information about the **Roadmap: becoming a computational designer**.
+See [here](../../roadmap/README.md) for more information about the **Roadmap: becoming a computational designer**.
 
-[![Roadmap](/_static/roadmap-small.png)](/roadmap/roadmap.png)
+[![Roadmap](../../_static/roadmap-small.png)](../../roadmap/roadmap.png)
 
 <div style="display: flex; justify-content: center; align-items: center; height: 1vh;">
     <p style="font-size: 75%;">
@@ -317,7 +317,7 @@ Grasshopper is a visual programming language and environment for Rhinoceros3D. I
 
 By connecting components and algorithms in Grasshopper's visual interface, you can manipulate geometry, automate tasks, and explore design alternatives. To learn more about Grasshopper and its capabilities, refer to the [Teaching Material](https://gramaziokohler.arch.ethz.ch/teaching-materials/) section for in-depth resources and links.
 
-![Grasshopper Basics](/lectures/week-01/images/grasshopper-python-component.png)
+![Grasshopper Basics](images/grasshopper-python-component.png)
 
 ## Code Examples
 
@@ -336,7 +336,7 @@ The assignment of this week is ungraded. You can give it a try to practice arith
 
 The task of the first (ungraded) assignment is to create a simple calculator program that can perform four basic arithmetic operations: addition, subtraction, multiplication, and division. 
 
-Click the link [here](/assignments/A00-ungraded-assignment/README.md) to learn the details of the first assignment.
+Click the link [here](../../assignments/A00-ungraded-assignment/README.md) to learn the details of the first assignment.
 
 ## Micro exercises
 
