@@ -53,8 +53,8 @@ pre, table {
   display: block;
 }
 
-// Inline Code soll wirklich inline bleiben
-code {
+// Inline Code soll wirklich inline bleiben (Code-Blöcke in <pre> ausnehmen)
+:not(pre) > code {
   display: inline !important;
   white-space: normal !important;
   word-break: break-word !important;
