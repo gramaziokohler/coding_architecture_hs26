@@ -94,7 +94,7 @@ in typical stretcher bond.
 
 ## Deliverables
 
-One zip file [`mustermann_max_A-01.zip`] containing:
+Individual Files:
 
 - Grasshopper File (`.ghx`):
   - File Name: `mustermann_max_A-01.ghx`
