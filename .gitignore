@@ -16,3 +16,6 @@ ENV/
 
 *.DS_Store
 .vscode
+
+# Rhino lock files created while a model is open
+*.rhl
