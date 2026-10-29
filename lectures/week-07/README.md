@@ -314,7 +314,7 @@ grid.generate_main_beams(main_beam_width, main_beam_height)
 
 The filter tests each candidate cell's lower corner at `(ix * xsize, iy * ysize, iz * zsize)`. It does not test every corner or guarantee that the entire cell lies inside a Brep. `create_volmesh` returns the connected cells; the `Box` objects used to obtain corner coordinates are temporary construction helpers.
 
-Next week, Assignment 03 keeps this constructor and adds element classes carrying `geometry` plus the relevant edge or half-face key. A week-07 column is a `Box`; an A03 column is a `Column` whose box is `column.geometry`. Adapt geometry access when carrying your optional metrics forward. See the [course progression](./building-grid-conventions.md#course-progression) for the handoff to slabs, façades and the final project.
+Next week, Assignment 03 keeps this constructor and adds element classes carrying `geometry` plus the relevant edge or half-face key. A week-07 column is a `Box`; an A03 column is a `Column` whose box is `column.geometry`. Use `.geometry` when adapting your optional metrics for Assignment 03. This building grid provides the foundation for adding slabs and façades in the upcoming assignments and final project.
 
 ## Code Examples
 
