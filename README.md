@@ -27,7 +27,7 @@ The central platform for all course content is [Moodle](https://moodle-app2.let.
 * [Week 04](lectures/week-04/README.md) | No assignment
 * [Week 05](lectures/week-05/README.md) | [Assignment 02](assignments/A02-filtered-point-grid/README.md)
 * Week 06:  Seminar week
-* Week 07 | No assignment
+* [Week 07](/lectures/week-07/README.md) | No assignment
 * Week 08 | Assignment 03
 * Week 09 | No assignment
 * Week 10 | Final project
