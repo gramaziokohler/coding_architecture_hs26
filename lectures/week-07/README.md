@@ -17,7 +17,6 @@
         - [**VolMesh**](#volmesh)
     + [Vector arithmetic and friends](#vector-arithmetic-and-friends)
     + [Building grid exercise](#building-grid-exercise)
-    + [Following last year's recording](#following-last-years-recording)
 * [Code Examples](#code-examples)
 
 ## Overview
@@ -316,19 +315,6 @@ grid.generate_main_beams(main_beam_width, main_beam_height)
 The filter tests each candidate cell's lower corner at `(ix * xsize, iy * ysize, iz * zsize)`. It does not test every corner or guarantee that the entire cell lies inside a Brep. `create_volmesh` returns the connected cells; the `Box` objects used to obtain corner coordinates are temporary construction helpers.
 
 Next week, Assignment 03 keeps this constructor and adds element classes carrying `geometry` plus the relevant edge or half-face key. A week-07 column is a `Box`; an A03 column is a `Column` whose box is `column.geometry`. Adapt geometry access when carrying your optional metrics forward. See the [course progression](./building-grid-conventions.md#course-progression) for the handoff to slabs, façades and the final project.
-
-### Following last year's recording
-
-The recording follows the same internal-builder design as the current starter and solution. Use the HS26 files linked below. A few details need care:
-
-- At approximately **35–42 minutes**, the geometry/data-structures demonstration uses a 1000-cell grid. The current example uses a smaller **27-cell** grid and coloured previews so its neighbour relationships are easier to inspect; the same query methods apply.
-- At approximately **46–54 minutes**, the class constructor takes dimensions, counts and a filter; `create_volmesh` takes the filter first. Match the parameter order shown in the current code.
-- At approximately **60–74 minutes**, the live-coded version adds vertices and faces. Keep the current `TOL.geometric_key` dictionary so neighbouring cells reuse vertex keys. Compute coordinates by **multiplying** indices by cell sizes, and use the current six outward-wound face lists for eight corners.
-- At approximately **80–83 minutes**, the dot-product ±1 tests require unit vectors. `volmesh.edge_direction(edge)` returns a unit vector. Columns come from vertical **edges**; horizontal **faces** are used for slabs in the next assignment.
-- At approximately **86–89 minutes**, calling beam generation first fails because column dimensions have not been stored yet. Call column generation before beam generation.
-- At approximately **101–102 minutes**, counting methods and total member volume are optional extensions.
-
-Dates, software workarounds and quiz arrangements mentioned in the old recording are historical. Use Moodle and the current course instructions for this year's arrangements.
 
 ## Code Examples
 
