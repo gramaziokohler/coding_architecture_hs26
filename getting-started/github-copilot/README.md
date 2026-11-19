@@ -4,6 +4,8 @@ GitHub Copilot (by GitHub & OpenAI): An AI coding assistant integrated into deve
 
 You're entitled to access Github Copilot for free via the “Github Education” program in the role of student.
 
+NOTE: If you add your github username to Polygrade, we can submit the request for you.
+
 ## Step-by-step
 
 You will need your ETH card with the printed date clearly visible and in the future.
