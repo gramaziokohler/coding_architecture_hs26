@@ -31,7 +31,7 @@ The central platform for all course content is [Moodle](https://moodle-app2.let.
 * [Week 08](lectures/week-08/README.md) | [Assignment 03](assignments/A03-building-grid/README.md)
 * [Week 09](lectures/week-09/README.md) | No assignment
 * [Week 10](lectures/week-10/README.md) | [Final project](assignments/A04-final-project/README.md)
-* Week 11
+* [Week 11](lectures/week-11/README.md) | No assignment
 
 
 ## Roadmap
